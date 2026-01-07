@@ -1,15 +1,310 @@
----
-layout: default
-title: Privacy Policy - DimoGame
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - DimoGame Memory Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<h1>DimoGame - Memory Game</h1>
-<h2>Privacy Policy</h2>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
 
-<p>Select your language / Choisissez votre langue :</p>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
 
-<ul>
-  <li><a href="en.html">English</a></li>
-  <li><a href="fr.html">Français</a></li>
-</ul>
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .app-icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .last-updated {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 20px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 .icon {
+            font-size: 24px;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: #555;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+
+        .highlight-box.info {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-left-color: #2196f3;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: #333;
+        }
+
+        .highlight-box strong {
+            color: #1b5e20;
+        }
+
+        .highlight-box.info strong {
+            color: #0d47a1;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px 0 10px 35px;
+            position: relative;
+            color: #555;
+        }
+
+        ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .no-data-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 12px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            margin: 15px 0;
+        }
+
+        .contact-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .contact-card a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #f8f9fa;
+            color: #888;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            header {
+                padding: 30px 20px;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">🧠</div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">DimoGame - Memory Game</p>
+            <span class="last-updated">Last updated: January 7, 2026</span>
+        </header>
+
+        <div class="content">
+            <section>
+                <h2><span class="icon">👋</span> Overview</h2>
+                <p>DimoGame - Memory Game ("the App") is a casual memory card game developed by <strong>Dayeneris</strong>. We believe in transparency and respect for your privacy.</p>
+                <p>This privacy policy explains how we handle user information and protect your data.</p>
+            </section>
+
+            <section>
+                <h2><span class="icon">📊</span> Data Collection</h2>
+                <div class="no-data-badge">
+                    🛡️ We do NOT collect personal data
+                </div>
+                <p>The App does not collect, store, or transmit any personal data to external servers. Your privacy is fully protected.</p>
+
+                <div class="highlight-box">
+                    <p><strong>What this means for you:</strong> No registration required, no personal information asked, no data sent anywhere. Just play and enjoy!</p>
+                </div>
+            </section>
+
+            <section>
+                <h2><span class="icon">📱</span> Local Storage</h2>
+                <p>To enhance your gaming experience, the App stores the following data <strong>locally on your device only</strong>:</p>
+                <ul>
+                    <li>Game preferences (language setting)</li>
+                    <li>Best scores for each difficulty level</li>
+                    <li>Best scores for each theme</li>
+                </ul>
+
+                <div class="highlight-box info">
+                    <p><strong>Important:</strong> This data never leaves your device and is never shared with anyone. It stays completely private on your phone or tablet.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2><span class="icon">🔒</span> Data Security</h2>
+                <p>Since all data remains on your device, you have complete control over it:</p>
+                <ul>
+                    <li>Data is stored securely using your device's local storage</li>
+                    <li>No internet connection required to play</li>
+                    <li>No cloud synchronization</li>
+                    <li>Uninstalling the app removes all stored data</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><span class="icon">🚫</span> Third-Party Services</h2>
+                <p>The App does not integrate any third-party services:</p>
+                <ul>
+                    <li>No analytics or tracking tools</li>
+                    <li>No advertising networks</li>
+                    <li>No social media integrations</li>
+                    <li>No external APIs</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><span class="icon">👨‍👩‍👧‍👦</span> Children's Privacy</h2>
+                <p>DimoGame is designed to be safe and enjoyable for users of all ages, including children.</p>
+
+                <div class="highlight-box">
+                    <p><strong>Safe for kids:</strong> We do not collect any personal information from anyone, including children under 13. The app contains no ads, no in-app purchases, and no links to external websites.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2><span class="icon">⚖️</span> Your Rights</h2>
+                <p>You have full control over your data:</p>
+                <ul>
+                    <li>Clear app data anytime through your device settings</li>
+                    <li>Uninstall the app to remove all associated data</li>
+                    <li>No account to delete since we don't create accounts</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><span class="icon">🔄</span> Changes to This Policy</h2>
+                <p>We may update this privacy policy from time to time to reflect changes in our practices or for legal reasons. Any changes will be reflected in the "Last updated" date at the top of this page.</p>
+                <p>We encourage you to review this policy periodically.</p>
+            </section>
+
+            <section>
+                <h2><span class="icon">📧</span> Contact Us</h2>
+                <p>If you have any questions, concerns, or suggestions about this privacy policy or the App, please don't hesitate to reach out:</p>
+
+                <div class="contact-card">
+                    <p>📬 Email us at</p>
+                    <a href="mailto:dayeneriss.apps@gmail.com">dayeneriss.apps@gmail.com</a>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>© 2026 Dayeneris. All rights reserved.</p>
+            <p>Made with ❤️ for puzzle lovers everywhere</p>
+        </footer>
+    </div>
+</body>
+</html>
